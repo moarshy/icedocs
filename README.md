@@ -4,7 +4,7 @@
 
 IceVision is the first agnostic computer vision framework to offer a curated collection with hundreds of high-quality pre-trained models from [torchvision](https://pytorch.org/vision/stable/index.html), [MMLab](https://openmmlab.com/), Ultralytics' [yolov5](https://github.com/ultralytics/yolov5) and Ross Wightman's [EfficientDet](https://github.com/rwightman/efficientdet-pytorch). It orchestrates the end-to-end deep learning workflow allowing to train networks with easy-to-use robust high-performance libraries such as [Pytorch-Lightning](https://www.pytorchlightning.ai/) and [Fastai](https://docs.fast.ai/).
 
-# Features of Icevision
+#Features of Icevision
 
 *   Data curation/cleaning with auto-fix
 *   Access to an exploratory data analysis dashboard
@@ -32,7 +32,7 @@ IceVision is the first agnostic computer vision framework to offer a curated col
 
 # [Join our Forum](https://discord.gg/JDBeZYK)
 
-# Quick Example: How to train the Fridge Objects Dataset
+#Quick Example: How to train the Fridge Objects Dataset
 
 ```python
 from icevision.all import *
@@ -78,7 +78,7 @@ learn.fine_tune(20, 1e-4, freeze_epochs=1)
 
 {% include note.html content='Please do not forget to install the other optional dependencies if you would like to use them: MMCV+MMDetection, and/or YOLOv5' %}
 
-## Installation on colab
+##Installation on colab
 
 ```python
 #check cuda version
@@ -99,7 +99,7 @@ import IPython
 IPython.Application.instance().kernel.do_shutdown(True)
 ```
 
-## Installation using pip
+##Installation using pip
 
 Option 1: Installing from pypi repository [Stable Version]
 
@@ -126,7 +126,7 @@ To install the icevision package from its GitHub repo, run the command here belo
 
 ```pip install git+git://github.com/airctic/icevision.git#egg=icevision[all] --upgrade```
 
-## Installation using conda
+##Installation using conda
 
 Creating a conda environment is considered as a best practice because it avoids polluting the default (base) environment, and reduces dependencies conflicts. Use the following command in order to create a conda environment called icevision.
 
@@ -136,9 +136,9 @@ $ conda activate icevision
 $ pip install icevision[all]
 ```
 
-# Installing optional dependencies 
+#Installing optional dependencies 
 
-### MMDetection Installation
+##MMDetection Installation
 
 We need to provide the appropriate version of the mmcv-full package as well as the cuda and the torch versions. Here are some examples for both the CUDA and the CPU versions.
 
@@ -155,11 +155,11 @@ $ pip install mmcv-full=="1.3.3+torch.1.8.0+cpu" -f https://download.openmmlab.c
 $ pip install mmdet
 ```
 
-### YOLOv5 Installation
+##YOLOv5 Installation
 
 `pip install yolov5-icevision --upgrade`
 
-# Troubleshooting
+#Troubleshooting
 
 ## MMCV is not installing with cuda support
 If you are installing MMCV from the wheel like described above and still are having problems with CUDA you will probably have to compile it locally. Do that by running:
