@@ -4,7 +4,7 @@
 
 IceVision is the first agnostic computer vision framework to offer a curated collection with hundreds of high-quality pre-trained models from [torchvision](https://pytorch.org/vision/stable/index.html), [MMLab](https://openmmlab.com/), Ultralytics' [yolov5](https://github.com/ultralytics/yolov5) and Ross Wightman's [EfficientDet](https://github.com/rwightman/efficientdet-pytorch). It orchestrates the end-to-end deep learning workflow allowing to train networks with easy-to-use robust high-performance libraries such as [Pytorch-Lightning](https://www.pytorchlightning.ai/) and [Fastai](https://docs.fast.ai/).
 
-#Features of Icevision
+##Features of Icevision
 
 *   Data curation/cleaning with auto-fix
 *   Access to an exploratory data analysis dashboard
@@ -32,7 +32,7 @@ IceVision is the first agnostic computer vision framework to offer a curated col
 
 # [Join our Forum](https://discord.gg/JDBeZYK)
 
-#Quick Example: How to train the Fridge Objects Dataset
+##Quick Example: How to train the Fridge Objects Dataset
 
 ```python
 from icevision.all import *
@@ -156,6 +156,8 @@ $ pip install mmdet
 ```
 
 ##YOLOv5 Installation
+
+You can install yolov5 by:
 
 `pip install yolov5-icevision --upgrade`
 
