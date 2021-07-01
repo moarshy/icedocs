@@ -107,8 +107,7 @@ Option 1: Installing from pypi repository [Stable Version]
 
 Option 2: Installing an editable package locally [For Developers]
 
-{% include note.html content='This method is used by developers who are usually either:' %}> actively contributing to icevision project by adding new features or fixing bugs, or
-creating their own extensions, and making sure that their source code stay in sync with the icevision latest version.
+{% include note.html content='This method is used by developers who are usually either: actively contributing to icevision project by adding new features or fixing bugs, or' %}creating their own extensions, and making sure that their source code stay in sync with the icevision latest version.
 
 
 ```bash
@@ -161,9 +160,10 @@ You can install yolov5 by:
 
 `pip install yolov5-icevision --upgrade`
 
-#Troubleshooting
+##Troubleshooting
 
-## MMCV is not installing with cuda support
+###MMCV is not installing with cuda support
+
 If you are installing MMCV from the wheel like described above and still are having problems with CUDA you will probably have to compile it locally. Do that by running:
 
 `pip install mmcv-full`

@@ -190,8 +190,7 @@ nb_path: "index.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>{% include note.html content='This method is used by developers who are usually either:' %}&gt; actively contributing to icevision project by adding new features or fixing bugs, or
-creating their own extensions, and making sure that their source code stay in sync with the icevision latest version.</p>
+<p>{% include note.html content='This method is used by developers who are usually either: actively contributing to icevision project by adding new features or fixing bugs, or' %}creating their own extensions, and making sure that their source code stay in sync with the icevision latest version.</p>
 
 </div>
 </div>
@@ -309,13 +308,13 @@ $ pip install icevision[all]</code></pre>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Troubleshooting">Troubleshooting<a class="anchor-link" href="#Troubleshooting"> </a></h1>
+<h2 id="Troubleshooting">Troubleshooting<a class="anchor-link" href="#Troubleshooting"> </a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="MMCV-is-not-installing-with-cuda-support">MMCV is not installing with cuda support<a class="anchor-link" href="#MMCV-is-not-installing-with-cuda-support"> </a></h2><p>If you are installing MMCV from the wheel like described above and still are having problems with CUDA you will probably have to compile it locally. Do that by running:</p>
+<h3 id="MMCV-is-not-installing-with-cuda-support">MMCV is not installing with cuda support<a class="anchor-link" href="#MMCV-is-not-installing-with-cuda-support"> </a></h3><p>If you are installing MMCV from the wheel like described above and still are having problems with CUDA you will probably have to compile it locally. Do that by running:</p>
 <p><code>pip install mmcv-full</code></p>
 <p>If you encounter the following error it means you will have to install CUDA manually (the one that comes with conda installation will not do).</p>
 <p><code>OSError: CUDA_HOME environment variable is not set. Please set it to your CUDA install root.</code></p>
