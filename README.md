@@ -141,7 +141,7 @@ $ pip install icevision[all]
 
 We need to provide the appropriate version of the mmcv-full package as well as the cuda and the torch versions. Here are some examples for both the CUDA and the CPU versions.
 
-{% include important.html content='For the torch version use `torch.__version__` and replace the last ' %}> number with 0. For the cuda version use:`torch.version.cuda.Example: TORCH_VERSION = torch1.8.0; CUDA_VERSION = cu101`
+{% include important.html content='For the torch version use `torch.__version__` and replace the last number with 0. For the cuda version use: `torch.version.cuda.' %}Example: TORCH_VERSION = torch1.8.0; CUDA_VERSION = cu101`
 
 For CUDA version,
 ```python
